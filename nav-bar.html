@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Document</title>
+</head>
+<style>
+    /* Styles for the navigation bar container */
+    div {
+        display: flex; /* Use flexbox layout for the container */
+        background-image: linear-gradient(to right, rgb(81, 90, 218), rgb(16, 219, 158)); /* Apply a gradient background */
+        justify-content: space-around; /* Distribute items evenly along the main axis */
+        align-items: center; /* Center items along the cross axis */
+        height: 70px; /* Set the height of the container */
+    }
+
+    /* Styles for the navigation bar links (paragraphs) */
+    div p {
+        width: 200px; /* Set the width of each link */
+        text-align: center; /* Center-align the text within each link */
+        font-size: 20px; /* Set the font size for each link */
+        height: 70px; /* Set the height of each link */
+        color: antiquewhite; /* Set the text color for each link */
+        border-right: 1px solid white; /* Add a right border to separate links */
+        padding-top: 40px; /* Add top padding to vertically center the text */
+    }
+
+    /* Additional style for the "catalog" link */
+    .i {
+        flex-basis: 400px; /* Set a larger flex basis for the "catalog" link */
+    }
+</style>
+<body>
+    <!-- Navigation bar container with links -->
+    <div>
+        <p>Home</p>
+        <p class="i">Catalog</p>
+        <p>Cart</p>
+        <p>Profile</p>
+    </div>
+</body>
+</html>
